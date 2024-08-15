@@ -4,11 +4,11 @@ import socket
 import time
 from math import sin, pi, sqrt
 # ESP32 IP và PORT
-UDP_IP = "192.168.1.192"  # Thay đổi thành IP của ESP32
+UDP_IP = "192.168.1.243"  # Thay đổi thành IP của ESP32
 UDP_PORT = 5000  # Thay đổi thành port bạn muốn sử dụng
 time_step = 0
 # Tạo socket UDP
-width = 64
+width = 128
 height = 64
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 MAX_UDP_SIZE = 1450  # Thay đổi nếu cần
